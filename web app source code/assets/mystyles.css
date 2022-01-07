@@ -1,0 +1,46 @@
+.box {
+    width: 75%;
+    min-width: 420px;
+    height: 50px;
+    background-color: rgb(239,228,176);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.box > i {
+    font-size: 20px;
+    color: #777;
+}
+
+.box > input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 15px;
+    background-color: rgb(239,228,176);
+}
+
+.box > input:focus {
+    background-color: rgb(239,228,176);
+}
+
+.text-beige {
+    color: rgb(239,228,176)
+}
+
+.text-lgrey {
+    color: rgb(195,195,195)
+}
+
+.text-dgrey {
+    color: rgb(38,41,45)
+}
+
+.bg-beige {
+    background-color: rgb(239,228,176)
+}
